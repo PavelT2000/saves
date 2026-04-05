@@ -1,0 +1,34 @@
+=== PROJECT HIERARCHY ===
+├── .aiignore
+├── AutoGit.bat
+├── GitFetch.bat
+├── Save1.zip
+├── Save1Solo.zip
+├── Save2.zip
+├── Save2Solo.zip
+├── Save3.zip
+├── Save3NotSolo.zip
+├── Save4NotSolo.zip
+├── Save5NotSolo.zip
+├── Save6NotSolo.zip
+├── Save7NotSolo.zip
+├── _autosave1.zip
+├── _autosave2.zip
+└── _autosave3.zip
+
+=== SOURCE CODE ===
+
+--- FILE: .aiignore ---
+*.zip
+*.bat
+
+--- FILE: AutoGit.bat ---
+git add . 
+git commit -m edit 
+git push 
+timeout 5
+
+
+--- FILE: GitFetch.bat ---
+git pull
+timeout 5 
